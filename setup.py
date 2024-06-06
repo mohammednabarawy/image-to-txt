@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='img2txt',
+    name='img2otxt',
     version='0.1',
     packages=find_packages(),
     install_requires=[
@@ -11,7 +11,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'convert_image_to_text=img2txt.convert:convert_image_to_text',
+            'convert_image_to_text=img2otxt.convert:convert_image_to_text',
         ],
     },
     author='mohammed Elnabarawi',
@@ -19,7 +19,6 @@ setup(
     description='A package to convert images to text using OCR.',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
-    # Replace with your GitHub repo URL
     url='https://github.com/mohammednabarawy/image-to-txt.git',
     classifiers=[
         'Programming Language :: Python :: 3',

@@ -1,4 +1,4 @@
-from img2txt.convert import convert_image_to_text
+from img2otxt.convert import convert_image_to_text
 import os
 
 image_path = r'F:\original\coding\image-to-txt\tests\New.png'
