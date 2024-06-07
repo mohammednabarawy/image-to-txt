@@ -11,7 +11,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'convert_image_to_text=img2otxt.convert:convert_image_to_text',
+            'convert_image_to_text=img2otxt:convert_image_to_text',
         ],
     },
     author='mohammed Elnabarawi',

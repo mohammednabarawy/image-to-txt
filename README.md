@@ -7,21 +7,23 @@ This process utilizes Marker package by VikParuchuri.
 ## Installation
 
 ```sh
-pip install -r requirements.txt
+pip install img2otxt
 ```
 
 ## Usage
 
 ```
-from img2otxt.convert import convert_image_to_text
+from img2otxt import convert_image_to_text
+
 image_path = 'path/to/your/image.png'
 output_dir = 'path/to/output/directory'
 convert_image_to_text(image_path, output_dir)
+
 ```
 
 ## Marker Package
 
-This package relies on the Marker package by VikParuchuri for OCR processing. For more details about Marker, please refer to its [GitHub repository](https://github.com/VikParuchuri/marker).
+This package relies on the Marker package by VikParuchuri. For more details about Marker, please refer to its [GitHub repository](https://github.com/VikParuchuri/marker).
 
 ## Testing
 

@@ -1,0 +1,29 @@
+<p>06/10/2021 INVO-005</p>
+
+<h1>Sample Invoice</h1>
+
+<p><img src="0_Image_0.Png" alt="0<em>Image</em>0.Png" /></p>
+
+<h2>Billing Information</h2>
+
+<p>Company Name ABC Company John Smith Address 111 Pine Street, Suite 1815 San Francisco, CA, 94111 Phone Number (123) 123-1232</p>
+
+<h2>Email</h2>
+
+<p>John@example.com</p>
+
+<h2>Shipping Information</h2>
+
+<p>Name Sam K. Smith Address 111 Pine Street, Suite 1815 San Francisco, CA, 94111</p>
+
+<p>| Description       | Quantity          | Unit Price   | Total   |      |
+|-------------------|-------------------|--------------|---------|------|
+| Product/Service 1 | Sink              | 2            | 100     | $200 |
+| Product/Service 2 | Nest Smart Filter | 150          | $150    |      |
+| 1                 |                   |              |         |      |
+| Product/Service 3 | Labor Fee         | 50           | $50     |      |
+| 1                 |                   |              |         |      |
+| Product/Service 4 | 25                | $25          |         |      |
+| Service Fee       | 1                 |              |         |      |</p>
+
+<p>$425 1</p>

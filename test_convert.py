@@ -1,12 +1,12 @@
 import unittest
 import os
-from img2otxt.convert import convert_image_to_text
+from img2otxt import convert_image_to_text
 
 
 class TestImageToTextConversion(unittest.TestCase):
 
     def setUp(self):
-        self.image_path = 'tests/New.png'  # Path relative to the root of the project
+        self.image_path = 'New.png'
         self.output_dir = os.getcwd()
 
     def test_conversion(self):
