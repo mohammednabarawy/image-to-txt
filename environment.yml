@@ -1,0 +1,11 @@
+name: test-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - img2pdf
+  - markdown2
+  - pip
+  - pip:
+    - img2otxt
