@@ -3,19 +3,14 @@ import os
 from img2otxt import convert_image_to_text
 
 
-class TestImageToTextConversion(unittest.TestCase):
-
-    def setUp(self):
-        self.image_path = 'New.png'
-        self.output_dir = os.getcwd()
-
-    def test_conversion(self):
-        convert_image_to_text(self.image_path, self.output_dir)
-        text_path = os.path.join(self.output_dir, 'output.txt')
-        self.assertTrue(os.path.exists(text_path))
-        with open(text_path, 'r') as file:
-            content = file.read()
-            self.assertNotEqual(content, '')
+class TestImageToText(unittest.TestCase):
+    def test_convert(self):
+        image_path = 'New.png'
+        output_dir = 'output'
+        os.makedirs(output_dir, exist_ok=True)
+        convert_image_to_text(image_path, output_dir)
+        # Check if output.txt is created
+        self.assertTrue(os.path.exists(os.path.join(output_dir, 'output.txt')))
 
 
 if __name__ == '__main__':

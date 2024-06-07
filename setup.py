@@ -4,6 +4,7 @@ setup(
     name='img2otxt',
     version='0.2',
     packages=find_packages(),
+    py_modules=['img2otxt'],
     install_requires=[
         'img2pdf',
         'markdown2',
