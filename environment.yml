@@ -1,0 +1,10 @@
+name: test-env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - img2pdf
+  - markdown2
+  - pip
+  - pip:
+    - git+https://github.com/VikParuchuri/marker.git
